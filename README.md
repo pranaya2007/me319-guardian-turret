@@ -48,7 +48,7 @@ They keep their own state in `persistent` variables and reset when `t <= 0`.
 ## How to reproduce the results
 
 ```matlab
-cd matlab
+cd "Matlab Codes"
 design_analysis            % plant, compensator, margins, step response   (Control System Toolbox)
 run_all                    % scenarios A, B, C and the 200-case Monte-Carlo study -> results.txt
 make_frames                % four snapshots of Scenario C
